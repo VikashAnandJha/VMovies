@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+
+    android:padding="2dp"
+    android:layout_height="540px">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300px"
+         app:cardCornerRadius="5dp"
+        android:layout_height="450px">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/loadingposter"
+                android:id="@+id/poster"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="300px"
+        android:text="title \n of wall "
+        android:textSize="25px"
+        android:id="@+id/title"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="3dp"
+        android:layout_height="80px">
+
+    </TextView>
+
+
+</LinearLayout>
